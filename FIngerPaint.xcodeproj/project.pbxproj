@@ -13,6 +13,10 @@
 		CA184D2C1DD63E4C000F2B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA184D2A1DD63E4C000F2B5C /* Main.storyboard */; };
 		CA184D2E1DD63E4C000F2B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA184D2D1DD63E4C000F2B5C /* Assets.xcassets */; };
 		CA184D311DD63E4C000F2B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA184D2F1DD63E4C000F2B5C /* LaunchScreen.storyboard */; };
+		CA184D3A1DD63EEF000F2B5C /* Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = CA184D391DD63EEF000F2B5C /* Drawing.m */; };
+		CA184D401DD661AE000F2B5C /* PaintPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA184D3F1DD661AE000F2B5C /* PaintPoint.m */; };
+		CA184D461DD665D4000F2B5C /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = CA184D451DD665D4000F2B5C /* Line.m */; };
+		CA184D491DD67ECA000F2B5C /* Lines.m in Sources */ = {isa = PBXBuildFile; fileRef = CA184D481DD67ECA000F2B5C /* Lines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		CA184D2D1DD63E4C000F2B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA184D301DD63E4C000F2B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA184D321DD63E4C000F2B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA184D381DD63EEF000F2B5C /* Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawing.h; sourceTree = "<group>"; };
+		CA184D391DD63EEF000F2B5C /* Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawing.m; sourceTree = "<group>"; };
+		CA184D3E1DD661AE000F2B5C /* PaintPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintPoint.h; path = ../PaintPoint.h; sourceTree = "<group>"; };
+		CA184D3F1DD661AE000F2B5C /* PaintPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintPoint.m; path = ../PaintPoint.m; sourceTree = "<group>"; };
+		CA184D441DD665D4000F2B5C /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		CA184D451DD665D4000F2B5C /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		CA184D471DD67ECA000F2B5C /* Lines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lines.h; sourceTree = "<group>"; };
+		CA184D481DD67ECA000F2B5C /* Lines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				CA184D251DD63E4C000F2B5C /* AppDelegate.m */,
 				CA184D271DD63E4C000F2B5C /* ViewController.h */,
 				CA184D281DD63E4C000F2B5C /* ViewController.m */,
+				CA184D3E1DD661AE000F2B5C /* PaintPoint.h */,
+				CA184D3F1DD661AE000F2B5C /* PaintPoint.m */,
+				CA184D441DD665D4000F2B5C /* Line.h */,
+				CA184D451DD665D4000F2B5C /* Line.m */,
+				CA184D471DD67ECA000F2B5C /* Lines.h */,
+				CA184D481DD67ECA000F2B5C /* Lines.m */,
+				CA184D381DD63EEF000F2B5C /* Drawing.h */,
+				CA184D391DD63EEF000F2B5C /* Drawing.m */,
 				CA184D2A1DD63E4C000F2B5C /* Main.storyboard */,
 				CA184D2D1DD63E4C000F2B5C /* Assets.xcassets */,
 				CA184D2F1DD63E4C000F2B5C /* LaunchScreen.storyboard */,
@@ -151,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA184D461DD665D4000F2B5C /* Line.m in Sources */,
+				CA184D3A1DD63EEF000F2B5C /* Drawing.m in Sources */,
 				CA184D291DD63E4C000F2B5C /* ViewController.m in Sources */,
 				CA184D261DD63E4C000F2B5C /* AppDelegate.m in Sources */,
+				CA184D491DD67ECA000F2B5C /* Lines.m in Sources */,
+				CA184D401DD661AE000F2B5C /* PaintPoint.m in Sources */,
 				CA184D231DD63E4C000F2B5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
